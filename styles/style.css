@@ -55,3 +55,181 @@ nav .resume-btn {
 }
 
 /* banner section starts here */
+.banner {
+    height: 570px;
+    /* fill: url(../assets/Hero-bg.png) lightgray 50% / cover no-repeat; */
+    background-image: url('./../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    margin: 0px 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.banner .banner-content img {
+    /* border: 2px solid salmon; */
+    width: 20vh;
+
+}
+
+.banner .banner-content h1 {
+    /* width: 998px; */
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    /* 141.667% */
+    margin-top: 30px;
+}
+
+.banner .banner-content p {
+    /* width: 852px; */
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 162.5% */
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.banner .banner-content .contact-btn {
+    border-radius: 8px;
+    background: #0D1321;
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* text inside */
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+/* why web dev section  */
+.why-web-dev {
+    /* border: 3px solid saddlebrown; */
+}
+
+.for-just-ash-color {
+    border-radius: 16px;
+    /* background-color: rgba(9, 63, 189, 0.02); */
+    margin: 65px 150px;
+    /* border: 3px solid green; */
+    background-color: rgba(13, 19, 33, 0.02);
+
+}
+
+.actual-content {
+    /* border: 1px solid black; */
+    margin: 70px 80px;
+
+}
+
+.actual-content h1 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* align-self: stretch; */
+}
+
+.actual-content p {
+    opacity: 0.7;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    text-align: start;
+    /* 162.5% */
+}
+
+.learnmore-btn {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    margin-top: 26px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.actual-content .division1 {
+    display: flex;
+    padding: 48px;
+    /* flex-direction: col; */
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    gap: 32px;
+    /* align-self: stretch; */
+    border-radius: 14px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+
+}
+.actual-content .division2 {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 48px;
+    /* flex-direction: col; */
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    gap: 32px;
+    /* align-self: stretch; */
+    border-radius: 14px;
+    /* background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); */
+
+}
+.actual-content .division3 {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    /* flex-direction: col; */
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    gap: 32px;
+    /* align-self: stretch; */
+    border-radius: 14px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+}
+/* my inspiration section */

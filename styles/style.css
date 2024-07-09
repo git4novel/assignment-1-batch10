@@ -1,2 +1,57 @@
 /* font for styling text */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* SHARED ANY CLASSES HERE */
+
+/* navbar css section starts here */
+nav {
+    width: 100%;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav h3 {
+    margin-left: 150px;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav .resume-btn {
+    margin-right: 150px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    padding: 14px 20px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+/* banner section starts here */

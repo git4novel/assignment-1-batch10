@@ -398,6 +398,7 @@ nav .resume-btn {
     height: 350px;
     border-radius: 16px;
     margin: 70px auto;
+    background-position: center;
 }
 
 .sup-cont {

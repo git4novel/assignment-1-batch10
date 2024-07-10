@@ -132,6 +132,7 @@ nav .resume-btn {
 /* why web dev section  */
 .why-web-dev {
     /* border: 3px solid saddlebrown; */
+    margin-top: 150px;
 }
 
 .for-just-ash-color {
@@ -390,6 +391,10 @@ nav .resume-btn {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('./../assets/handshake.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 350px;
     border-radius: 16px;
     margin: 70px auto;
@@ -436,11 +441,11 @@ nav .resume-btn {
     background: #FFF;
     padding: 18px 20px;
     color: rgba(13, 19, 33, 0.40);
-    text-align: center;
+    text-align: start;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    width: 100%;
+    width: 400px;
 }
 
 .submit {
